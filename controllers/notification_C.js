@@ -1,5 +1,5 @@
 const Notification = require('../models/notification_M');
-//
+// create request
 exports.acceptNotification = async(req, res)=>{
     const mailObj = {
         subject : req.body.subject,
@@ -24,7 +24,7 @@ exports.acceptNotification = async(req, res)=>{
     }
 
 }
-
+// get request by /:id
 exports.getNotification = async(req, res)=>{
     const reqId = req.params.id;
     try {

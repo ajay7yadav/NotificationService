@@ -1,3 +1,4 @@
+// i don't want to use String teciture
 const constants = {
     status : {
         sent : "SENT",

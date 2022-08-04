@@ -1,3 +1,4 @@
 module.exports = {
-    DB_URL : 'mongoDB://localhost/notification_service'
+    DB_Name : 'notification',
+    DB_URL : 'mongodb://localhost/notification'
 }
